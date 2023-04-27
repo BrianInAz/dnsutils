@@ -1,0 +1,9 @@
+# buildkitd.toml
+debug = true
+[registry."harbor.homelab.bjzy.me"]
+http = false
+insecure = false
+  ca=["/Users/b/Documents/Security/Certificates/caRoot/ca_root.crt"]
+  [[registry."harbor.homelab.bjzy.me".keypair]]
+    key="/Users/b/Documents/Security/Certificates/harbor.homelab.bjzy.me/harbor.key"
+    cert="/Users/b/Documents/Security/Certificates/harbor.homelab.bjzy.me/harbor.crt"
