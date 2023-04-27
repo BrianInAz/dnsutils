@@ -5,6 +5,6 @@ Docker image with dnsutils installed
 
 ## Usage
 
-	docker run -it tutum/dnsutils nslookup tutum.co
+	docker run -it bjzy-custom/dnsutils nslookup tutum.co
 
-	docker run -it tutum/dnsutils dig tutum.co
+	docker run -it bjzy-custom/dnsutils dig tutum.co
